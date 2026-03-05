@@ -9,6 +9,7 @@
     "preview": "vite preview --host 0.0.0.0 --port 4173"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "react": "^19.1.1",
@@ -17,6 +18,7 @@
     "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
+    "@types/node": "^24.3.0",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react-swc": "^4.0.1",
