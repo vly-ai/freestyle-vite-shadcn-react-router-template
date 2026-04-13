@@ -1,4 +1,4 @@
-# Freestyle Vite + shadcn + React Router + Supabase Template
+# Vite / Supabase Template
 
 This repo is a small frontend starter built with Vite, React, TypeScript, React Router, Tailwind, and shadcn/ui. Supabase is installed and wired into the client, but the project is still intentionally minimal.
 
