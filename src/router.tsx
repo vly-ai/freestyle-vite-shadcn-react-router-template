@@ -10,8 +10,8 @@ function Layout() {
       <div className="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-6 py-8 sm:px-8">
         <header className="mb-10 flex flex-col gap-4 border-b border-slate-200 pb-6 sm:flex-row sm:items-center sm:justify-between">
           <div className="space-y-1">
-            <p className="text-sm font-medium uppercase tracking-[0.24em] text-slate-500">Vite Template</p>
-            <h1 className="text-2xl font-semibold tracking-tight">React Router + shadcn + Supabase</h1>
+            <p className="text-sm font-medium uppercase tracking-[0.24em] text-slate-500">Template</p>
+            <h1 className="text-2xl font-semibold tracking-tight">App Starter</h1>
           </div>
           <nav className="flex items-center gap-2">
             <Button asChild variant="outline" size="sm">
@@ -74,8 +74,8 @@ function HomePage() {
     <section className="grid gap-6 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.95fr)]">
       <div className="space-y-6 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
         <div className="space-y-3">
-          <p className="text-sm font-medium uppercase tracking-[0.24em] text-slate-500">Supabase Quickstart</p>
-          <h2 className="text-4xl font-semibold tracking-tight text-slate-950">Query live data from your Vite starter</h2>
+          <p className="text-sm font-medium uppercase tracking-[0.24em] text-slate-500">Supabase</p>
+          <h2 className="text-4xl font-semibold tracking-tight text-slate-950">Query live data</h2>
           <p className="max-w-2xl text-base leading-7 text-slate-600">
             This template follows the official Supabase React setup: add your project URL and publishable key,
             create the sample <code>instruments</code> table, and the homepage will fetch rows on load.
@@ -149,11 +149,11 @@ VITE_SUPABASE_PUBLISHABLE_KEY=your-publishable-key`}</code>
         </div>
 
         <div className="rounded-3xl border border-slate-200 bg-slate-950 p-6 text-slate-100 shadow-sm">
-          <p className="text-sm font-medium uppercase tracking-[0.22em] text-slate-400">What changed</p>
+          <p className="text-sm font-medium uppercase tracking-[0.22em] text-slate-400">Stack</p>
           <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-300">
-            <li>Supabase client dependency installed for browser-side queries.</li>
-            <li>Typed client helper added under <code>src/lib/supabase.ts</code>.</li>
-            <li>Template README and env scaffolding updated for project setup.</li>
+            <li>React with TypeScript</li>
+            <li>Supabase client for data access</li>
+            <li>Tailwind CSS + shadcn/ui components</li>
           </ul>
         </div>
       </div>
@@ -165,15 +165,14 @@ function AboutPage() {
   return (
     <section className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,0.9fr)]">
       <div className="space-y-4 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
-        <p className="text-sm font-medium uppercase tracking-[0.24em] text-slate-500">About this template</p>
-        <h2 className="text-3xl font-semibold tracking-tight text-slate-950">A small starter that is ready for Supabase</h2>
+        <p className="text-sm font-medium uppercase tracking-[0.24em] text-slate-500">About</p>
+        <h2 className="text-3xl font-semibold tracking-tight text-slate-950">App starter with Supabase</h2>
         <p className="text-base leading-7 text-slate-600">
-          The repo keeps the original Vite, React Router, shadcn, and Tailwind stack, then layers in the Supabase
-          client using Vite environment variables so downstream projects can start querying data immediately.
+          This template provides a React frontend with Supabase client access already configured.
+          Add your credentials and start querying data immediately.
         </p>
         <p className="text-base leading-7 text-slate-600">
-          Until credentials are present, the homepage renders setup guidance instead of throwing at runtime. That makes
-          the repository safer to use as a template or submodule source.
+          Until credentials are present, the homepage renders setup guidance instead of throwing at runtime.
         </p>
       </div>
       <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
